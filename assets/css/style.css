@@ -103,15 +103,16 @@ span, ion-icon {
     padding: 0 20px 40px 20px;
 }
 
-.plats p {
-    text-align: left;
-    line-height: 1.6em;
-}
-
 .plats img {
     width: 100px;
     border-radius: 50%;
     float: left;
+    margin-right: 7px;
+}
+
+.plats p {
+    text-align: left;
+    line-height: 1.6em;
 }
 
 .crusty-fish, .multifish {
@@ -166,9 +167,8 @@ aside img {
 }
 
 aside img:hover {
-    transform: scale(1.2) rotate(45deg);
-    transition-property: transform;
-    transition-duration: 0.5s;
+    transform: scale(1.5) rotate(45deg);
+    transition-duration: 0.6s;
 }
 
 footer {
